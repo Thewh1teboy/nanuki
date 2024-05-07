@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    function moveButton() {
+      var button = document.getElementById("noButton");
+      var x = Math.random() * (window.innerWidth - button.offsetWidth);
+      var y = Math.random() * (window.innerHeight - button.offsetHeight);
+      button.style.left = `${x}px`;
+      button.style.top = `${y}px`;
+    }
+  </script> 
+  
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h1 class="header_text">ნანკიუს გამოხვალ?🌑🌞</h1>
+    </div>
+    <div class="img">
+    <img 
+      src="https://media.giphy.com/media/3ofT5ySFXZ01oJ7aoM/giphy.gif?cid=ecf05e47h77m8bv8tnjopap90wtw460hee0sjvmrsr0v0oxk&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+      alt="Cute animated illustration" />
+    </div>
+    <div class="buttons"><a href="yes.html"><button class="btn" id="yesButton"><h1>კი ცოტნი 🌻 </h1></button></a>
+      <button style="position: absolute; top: 500px;" class="btn" id="noButton"  onclick="moveButton()">
+        <h1>არ ვიცი, ვნახოთ 🦥</h1>
+      </button>
+    </div>
+  </div>
+  
+  </div>
+  </div>
+</body>
+
+</html>

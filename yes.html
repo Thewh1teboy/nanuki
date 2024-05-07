@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script>
+    var audio = new Audio();
+    audio.src = './1.mp3';
+    audio.loop = true; 
+    audio.autoplay = false; 
+    audio.controls = true;
+    function playBackgroundMusic() {
+        audio.play(); 
+    }
+</script>
+  <head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+
+      <pre style="font-size: 18px;" class="header_text">
+✨🌟🌟✨🌟✨✨✨✨✨🌟✨
+✨✨✨🌙🌟✨✨🌟🌟✨🌟✨
+✨✨✨✨⁣✨🌟🌟✨✨🌟🌟✨
+  __________💃🏃__________ 
+      </div>
+      <div class="img">
+        <img
+          src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDRzcWlzMnd3M2N0dXhtOTR3ZzdibTloOWxmNW5rd3Mzem44emszZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4UnN0KjqK26Q0/giphy.gif"
+        />
+      </div>
+        <button class="btn" id="yesButton"  onclick="playBackgroundMusic()">
+           <h1>Make it  happen</h1> 
+        </button>
+    </div> 
+  </body>
+</html>

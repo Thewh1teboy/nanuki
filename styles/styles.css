@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'BPG Mrgvlovani';
+
+    src: url('../styles/fonts/bpg-mrgvlovani-webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('../styles/fonts/bpg-mrgvlovani-webfont.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../styles/fonts/bpg-mrgvlovani-webfont.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../styles/fonts/bpg-mrgvlovani-webfont.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('../styles/fonts/bpg-mrgvlovani-webfont.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../styles/fonts/bpg-mrgvlovani-webfont.svg#bpg_mrgvlovaniregular') format('svg');
+}
+@media only screen and (max-width: 600px) {
+    .img img{
+        width: 350px;
+    }
+    .header_text{
+        font-size: 40px;
+    }
+  }
+
+
+
+body {
+    font-family: "BPG Mrgvlovani", sans-serif;
+    background-color: #FFEEE7;
+}
+
+.btn {
+    font-family: "BPG Mrgvlovani", sans-serif;
+    font-weight: 800;
+    border-radius: 10px;
+    border: 1px solid #FBB448;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FCBAAD;
+    color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.img {
+    border-radius: 20px;
+    padding: 20px
+}
+
+.header_text {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
